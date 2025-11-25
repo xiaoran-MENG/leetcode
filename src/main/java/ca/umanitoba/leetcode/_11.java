@@ -1,6 +1,6 @@
 package ca.umanitoba.leetcode;
 
-public class M_11_ContainerWithMostWater {
+public class _11 {
     public static class TwoPointers {
         public int solution(int[] height) {
             int result = 0, left = 0, right = height.length - 1;

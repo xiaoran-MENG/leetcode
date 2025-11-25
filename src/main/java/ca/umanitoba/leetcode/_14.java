@@ -2,7 +2,7 @@ package ca.umanitoba.leetcode;
 
 import java.util.Arrays;
 
-public class E_14_LongestCommonPrefix {
+public class _14 {
 
     static class HorizontalScan {
         String solution(String[] strs) { // O(N x M^2) | O(1)
