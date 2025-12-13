@@ -6,7 +6,7 @@ import java.util.List;
 public class _300 {
     // Binary search - first occurrence
 
-    public int solution(int[] nums) {
+    public int solution(int[] nums) { // O(nlog(n)) | O(n)
         int size = nums.length;
         List<Integer> sorted = new ArrayList<>();
         sorted.add(nums[0]);
