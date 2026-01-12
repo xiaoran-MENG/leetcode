@@ -1,0 +1,101 @@
+############################
+# Java / JVM
+############################
+*.class
+*.log
+*.ctxt
+hs_err_pid*
+
+############################
+# Maven
+############################
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+############################
+# Gradle
+############################
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+
+############################
+# IntelliJ IDEA
+############################
+.idea/
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+out/
+
+############################
+# Eclipse
+############################
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+############################
+# NetBeans
+############################
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+############################
+# VS Code
+############################
+.vscode/
+
+############################
+# OS Files
+############################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+############################
+# Logs & Temp
+############################
+logs/
+*.log
+tmp/
+temp/
+
+############################
+# IDE / Tooling Extras
+############################
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+############################
+# Dependency Caches
+############################
+.mvn/timing.properties
+
+############################
+# Environment / Secrets
+############################
+.env
+.env.*
